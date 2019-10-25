@@ -1,0 +1,16 @@
+ Volume in drive C has no label.
+ Volume Serial Number is EAED-942B
+
+ Directory of C:\Users\Chaitu\Desktop\MyFolderGITTest
+
+25-10-2019  08:45    <DIR>          .
+25-10-2019  08:45    <DIR>          ..
+24-10-2019  09:07                22 index.html
+25-10-2019  08:37                58 newtext.txt
+25-10-2019  08:40                75 secondbranch.txt
+24-10-2019  09:07               373 test1.txt
+24-10-2019  09:49                 0 test2.txt
+25-10-2019  08:37                 0 text3.txt
+25-10-2019  08:45                 0 thitd.txt
+               7 File(s)            528 bytes
+               2 Dir(s)  43,121,631,232 bytes free
