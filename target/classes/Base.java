@@ -41,6 +41,8 @@ public WebDriver initializeDriver() throws IOException
     	 driver=new InternetExplorerDriver();
     }
     driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+    driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+    driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
     driver.manage().window().maximize();
 	return driver;
     

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32897" started-at="2020-01-18T16:57:30 IST" finished-at="2020-01-18T16:58:02 IST">
+  <suite name="Default suite" duration-ms="27679" started-at="2020-01-22T10:02:51 IST" finished-at="2020-01-22T10:03:18 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32897" started-at="2020-01-18T16:57:30 IST" finished-at="2020-01-18T16:58:02 IST">
-      <class name="Academy.ProvisioningTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ProvisioningTest@5c90e579]" name="initialize" is-config="true" duration-ms="6159" started-at="2020-01-18T16:57:30 IST" finished-at="2020-01-18T16:57:36 IST">
+    <test name="Default test" duration-ms="27679" started-at="2020-01-22T10:02:51 IST" finished-at="2020-01-22T10:03:18 IST">
+      <class name="Academy.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.LoginTest@27a8c74e]" name="initialize" is-config="true" duration-ms="4033" started-at="2020-01-22T10:02:51 IST" finished-at="2020-01-22T10:02:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="login()[pri:1, instance:Academy.ProvisioningTest@5c90e579]" name="login" duration-ms="7033" started-at="2020-01-18T16:57:36 IST" finished-at="2020-01-18T16:57:43 IST">
+        <test-method status="PASS" signature="emptyUnamePassword()[pri:0, instance:Academy.LoginTest@27a8c74e]" name="emptyUnamePassword" duration-ms="23555" started-at="2020-01-22T10:02:55 IST" finished-at="2020-01-22T10:03:18 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="provisioningFormCreation()[pri:2, instance:Academy.ProvisioningTest@5c90e579]" name="provisioningFormCreation" duration-ms="19645" started-at="2020-01-18T16:57:43 IST" finished-at="2020-01-18T16:58:02 IST">
+        </test-method> <!-- emptyUnamePassword -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.LoginTest@27a8c74e]" name="close" is-config="true" duration-ms="44" started-at="2020-01-22T10:03:18 IST" finished-at="2020-01-22T10:03:18 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- provisioningFormCreation -->
-      </class> <!-- Academy.ProvisioningTest -->
+        </test-method> <!-- close -->
+      </class> <!-- Academy.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
